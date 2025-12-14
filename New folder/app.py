@@ -7,7 +7,7 @@ import requests
 app = Flask(__name__)
 
 # ⚠️ Replace with your own API key (keep it secret)
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = ""
 
 HTML = '''
 <!DOCTYPE html>
@@ -147,5 +147,6 @@ def chat():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
 
